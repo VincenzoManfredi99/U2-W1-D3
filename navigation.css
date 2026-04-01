@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header button {
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(255, 204, 137);
+    padding: 0.5em 1em;
+    font-size: 1.7em;
+    font-weight: 300;
+}
+
+main {
+    padding: 1em;
+}
+
+main h1 {
+    font-size: 5em;
+}
+
+button img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    align-self: center;
+    border-radius: 100px;
+    padding: 2 2.5em;
+    padding-left: 0.7em;
+    gap: 2em;
+}
+
+#market {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 3em;
+}
